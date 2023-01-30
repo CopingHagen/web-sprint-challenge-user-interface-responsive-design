@@ -105,12 +105,14 @@ header {
     color: rgb(225, 239, 230);
     text-align: center;
 }
-header div {
+h1 {
     background-color: rgb(0, 4, 17, .8);
 }
 h1 a {
     font-size: 85%;
-    
+}
+header nav {
+    background-color: rgb(0, 4, 17, .8);
 }
 .links {
     display: flex;
@@ -151,6 +153,21 @@ h1 a {
     background-position: center;
     background-repeat: no-repeat;
     color: rgb(225, 239, 230);
+}
+h2 {
+    text-align: center;
+}
+.menu-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    width: 50%;
+}
+.menu-item div {
+    display: flex;
 }
 .menu div {
     background-color: rgb(0, 4, 17, .8);
