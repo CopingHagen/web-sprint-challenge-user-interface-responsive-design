@@ -291,13 +291,43 @@ a:hover {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
-
+    h1 {
+        text-align: center;
+        font-size: 4.3rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        line-height: 5rem;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+    .socialmedia {
+        width: 27%;
+        font-size: 2.4rem;
+        padding-bottom: 5%;
+    }
     /* gallery section */
     .gallery {
         height: auto;
     }
-    
+    h2 {
+        font-size: 5.1rem;
+        padding-top: 10%;
+        padding-bottom: .3%;
+    }
+    .row {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .foodimage {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
     /* about us section */
 
     .about {
@@ -341,5 +371,27 @@ a:hover {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+    .parent {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .left {
+        width: 100%;
+    }
+    footer h4 {
+        font-size: 2rem;
+        padding-bottom: 3%;
+    }
+    form {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    input {
+        font-size: 1.6rem;
+    }
+    footer button {
+        font-size: 1.6rem;
+        width: 100%;
     }
 }
